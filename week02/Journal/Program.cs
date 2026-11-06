@@ -6,10 +6,10 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Journal Project.");
 
-        // To go beyond the core requirements, I added a mood rating (1 to 5)
-        // to every journal entry. It is asked when you write an entry,
+        // To go beyond the core requirements, to every journal entry. 
+        // It is asked when you write an entry,
         // shown when you display the journal, and saved to and loaded from
-        // the file. Old files without a mood still load without errors.
+        // the file without errors.
 
         Journal journal = new Journal();
         PromptGenerator generator = new PromptGenerator();
